@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "wpfthemes/0.0.1": {
+        "runtime": {
+          "lib/WPF.Themes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wpfthemes/0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EOSigvyIDR4bBkqxbDm6EZol2nsUNxGSKro+653QYqsUTeRjYNUeq2lgi9lyDk+Eyxo2sraSLCFdDSSSLOKjhw==",
+      "path": "wpfthemes/0.0.1",
+      "hashPath": "wpfthemes.0.0.1.nupkg.sha512"
+    }
+  }
+}

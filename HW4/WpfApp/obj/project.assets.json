@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "wpfthemes/0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/WPF.Themes.dll": {}
+        },
+        "runtime": {
+          "lib/WPF.Themes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wpfthemes/0.0.1": {
+      "sha512": "EOSigvyIDR4bBkqxbDm6EZol2nsUNxGSKro+653QYqsUTeRjYNUeq2lgi9lyDk+Eyxo2sraSLCFdDSSSLOKjhw==",
+      "type": "package",
+      "path": "wpfthemes/0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WPF.Themes.dll",
+        "wpfthemes.0.0.1.nupkg.sha512",
+        "wpfthemes.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "wpfthemes >= 0.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\qultv\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\qultv\\source\\repos\\WpfApp\\WpfApp\\WpfApp.csproj",
+      "projectName": "WpfApp",
+      "projectPath": "C:\\Users\\qultv\\source\\repos\\WpfApp\\WpfApp\\WpfApp.csproj",
+      "packagesPath": "C:\\Users\\qultv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\qultv\\source\\repos\\WpfApp\\WpfApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\qultv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "wpfthemes": {
+            "target": "Package",
+            "version": "[0.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"wpfthemes 0.0.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "wpfthemes",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

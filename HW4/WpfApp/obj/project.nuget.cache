@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "iFgCUyHldGC4JNcSDz6nCyQtccZ6F7jpkM/6wO4bZJGrDi1O+V23rlSh5dDiInWIeUBnZ3ThmsmaewoufyhD8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\qultv\\source\\repos\\WpfApp\\WpfApp\\WpfApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qultv\\.nuget\\packages\\wpfthemes\\0.0.1\\wpfthemes.0.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"wpfthemes 0.0.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "wpfthemes",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
